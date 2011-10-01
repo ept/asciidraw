@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BECCA981437C3E0009B9D60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCA971437C3E0009B9D60 /* UIKit.framework */; };
+		5BECCA9A1437C3E0009B9D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCA991437C3E0009B9D60 /* Foundation.framework */; };
+		5BECCA9C1437C3E0009B9D60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCA9B1437C3E0009B9D60 /* CoreGraphics.framework */; };
+		5BECCAA21437C3E0009B9D60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAA01437C3E0009B9D60 /* InfoPlist.strings */; };
+		5BECCAA41437C3E0009B9D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAA31437C3E0009B9D60 /* main.m */; };
+		5BECCAA81437C3E0009B9D60 /* asciidrawAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAA71437C3E0009B9D60 /* asciidrawAppDelegate.m */; };
+		5BECCAAB1437C3E0009B9D60 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAA91437C3E0009B9D60 /* MainWindow.xib */; };
+		5BECCAAE1437C3E0009B9D60 /* asciidrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAAD1437C3E0009B9D60 /* asciidrawViewController.m */; };
+		5BECCAB11437C3E0009B9D60 /* asciidrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAAF1437C3E0009B9D60 /* asciidrawViewController.xib */; };
+		5BECCAB91437C3E1009B9D60 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCAB81437C3E1009B9D60 /* SenTestingKit.framework */; };
+		5BECCABA1437C3E1009B9D60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCA971437C3E0009B9D60 /* UIKit.framework */; };
+		5BECCABB1437C3E1009B9D60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCA991437C3E0009B9D60 /* Foundation.framework */; };
+		5BECCABC1437C3E1009B9D60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCA9B1437C3E0009B9D60 /* CoreGraphics.framework */; };
+		5BECCAC41437C3E1009B9D60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAC21437C3E1009B9D60 /* InfoPlist.strings */; };
+		5BECCAC61437C3E1009B9D60 /* asciidrawTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAC51437C3E1009B9D60 /* asciidrawTests.h */; };
+		5BECCAC81437C3E1009B9D60 /* asciidrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAC71437C3E1009B9D60 /* asciidrawTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BECCABD1437C3E1009B9D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BECCA8A1437C3E0009B9D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BECCA921437C3E0009B9D60;
+			remoteInfo = asciidraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BECCA931437C3E0009B9D60 /* asciidraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciidraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BECCA971437C3E0009B9D60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BECCA991437C3E0009B9D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BECCA9B1437C3E0009B9D60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BECCA9F1437C3E0009B9D60 /* asciidraw-Info.plist */ = {isa = PBXFileReference; path = "asciidraw-Info.plist"; sourceTree = "<group>"; };
+		5BECCAA11437C3E0009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BECCAA31437C3E0009B9D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BECCAA51437C3E0009B9D60 /* asciidraw-Prefix.pch */ = {isa = PBXFileReference; path = "asciidraw-Prefix.pch"; sourceTree = "<group>"; };
+		5BECCAA61437C3E0009B9D60 /* asciidrawAppDelegate.h */ = {isa = PBXFileReference; path = asciidrawAppDelegate.h; sourceTree = "<group>"; };
+		5BECCAA71437C3E0009B9D60 /* asciidrawAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asciidrawAppDelegate.m; sourceTree = "<group>"; };
+		5BECCAAA1437C3E0009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5BECCAAC1437C3E0009B9D60 /* asciidrawViewController.h */ = {isa = PBXFileReference; path = asciidrawViewController.h; sourceTree = "<group>"; };
+		5BECCAAD1437C3E0009B9D60 /* asciidrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asciidrawViewController.m; sourceTree = "<group>"; };
+		5BECCAB01437C3E0009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/asciidrawViewController.xib; sourceTree = "<group>"; };
+		5BECCAB71437C3E1009B9D60 /* asciidrawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asciidrawTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BECCAB81437C3E1009B9D60 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BECCAC11437C3E1009B9D60 /* asciidrawTests-Info.plist */ = {isa = PBXFileReference; path = "asciidrawTests-Info.plist"; sourceTree = "<group>"; };
+		5BECCAC31437C3E1009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BECCAC51437C3E1009B9D60 /* asciidrawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asciidrawTests.h; sourceTree = "<group>"; };
+		5BECCAC71437C3E1009B9D60 /* asciidrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asciidrawTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BECCA901437C3E0009B9D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BECCA981437C3E0009B9D60 /* UIKit.framework in Frameworks */,
+				5BECCA9A1437C3E0009B9D60 /* Foundation.framework in Frameworks */,
+				5BECCA9C1437C3E0009B9D60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BECCAB31437C3E1009B9D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BECCAB91437C3E1009B9D60 /* SenTestingKit.framework in Frameworks */,
+				5BECCABA1437C3E1009B9D60 /* UIKit.framework in Frameworks */,
+				5BECCABB1437C3E1009B9D60 /* Foundation.framework in Frameworks */,
+				5BECCABC1437C3E1009B9D60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BECCA881437C3E0009B9D60 = {
+			isa = PBXGroup;
+			children = (
+				5BECCA9D1437C3E0009B9D60 /* asciidraw */,
+				5BECCABF1437C3E1009B9D60 /* asciidrawTests */,
+				5BECCA961437C3E0009B9D60 /* Frameworks */,
+				5BECCA941437C3E0009B9D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BECCA941437C3E0009B9D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCA931437C3E0009B9D60 /* asciidraw.app */,
+				5BECCAB71437C3E1009B9D60 /* asciidrawTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BECCA961437C3E0009B9D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCA971437C3E0009B9D60 /* UIKit.framework */,
+				5BECCA991437C3E0009B9D60 /* Foundation.framework */,
+				5BECCA9B1437C3E0009B9D60 /* CoreGraphics.framework */,
+				5BECCAB81437C3E1009B9D60 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BECCA9D1437C3E0009B9D60 /* asciidraw */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCAA61437C3E0009B9D60 /* asciidrawAppDelegate.h */,
+				5BECCAA71437C3E0009B9D60 /* asciidrawAppDelegate.m */,
+				5BECCAA91437C3E0009B9D60 /* MainWindow.xib */,
+				5BECCAAC1437C3E0009B9D60 /* asciidrawViewController.h */,
+				5BECCAAD1437C3E0009B9D60 /* asciidrawViewController.m */,
+				5BECCAAF1437C3E0009B9D60 /* asciidrawViewController.xib */,
+				5BECCA9E1437C3E0009B9D60 /* Supporting Files */,
+			);
+			path = asciidraw;
+			sourceTree = "<group>";
+		};
+		5BECCA9E1437C3E0009B9D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCA9F1437C3E0009B9D60 /* asciidraw-Info.plist */,
+				5BECCAA01437C3E0009B9D60 /* InfoPlist.strings */,
+				5BECCAA31437C3E0009B9D60 /* main.m */,
+				5BECCAA51437C3E0009B9D60 /* asciidraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BECCABF1437C3E1009B9D60 /* asciidrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCAC51437C3E1009B9D60 /* asciidrawTests.h */,
+				5BECCAC71437C3E1009B9D60 /* asciidrawTests.m */,
+				5BECCAC01437C3E1009B9D60 /* Supporting Files */,
+			);
+			path = asciidrawTests;
+			sourceTree = "<group>";
+		};
+		5BECCAC01437C3E1009B9D60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCAC11437C3E1009B9D60 /* asciidrawTests-Info.plist */,
+				5BECCAC21437C3E1009B9D60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BECCA921437C3E0009B9D60 /* asciidraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BECCACB1437C3E1009B9D60 /* Build configuration list for PBXNativeTarget "asciidraw" */;
+			buildPhases = (
+				5BECCA8F1437C3E0009B9D60 /* Sources */,
+				5BECCA901437C3E0009B9D60 /* Frameworks */,
+				5BECCA911437C3E0009B9D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asciidraw;
+			productName = asciidraw;
+			productReference = 5BECCA931437C3E0009B9D60 /* asciidraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BECCAB61437C3E1009B9D60 /* asciidrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BECCACE1437C3E1009B9D60 /* Build configuration list for PBXNativeTarget "asciidrawTests" */;
+			buildPhases = (
+				5BECCAB21437C3E1009B9D60 /* Sources */,
+				5BECCAB31437C3E1009B9D60 /* Frameworks */,
+				5BECCAB41437C3E1009B9D60 /* Resources */,
+				5BECCAB51437C3E1009B9D60 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BECCABE1437C3E1009B9D60 /* PBXTargetDependency */,
+			);
+			name = asciidrawTests;
+			productName = asciidrawTests;
+			productReference = 5BECCAB71437C3E1009B9D60 /* asciidrawTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BECCA8A1437C3E0009B9D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Rapportive;
+			};
+			buildConfigurationList = 5BECCA8D1437C3E0009B9D60 /* Build configuration list for PBXProject "asciidraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BECCA881437C3E0009B9D60;
+			productRefGroup = 5BECCA941437C3E0009B9D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BECCA921437C3E0009B9D60 /* asciidraw */,
+				5BECCAB61437C3E1009B9D60 /* asciidrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BECCA911437C3E0009B9D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BECCAA21437C3E0009B9D60 /* InfoPlist.strings in Resources */,
+				5BECCAAB1437C3E0009B9D60 /* MainWindow.xib in Resources */,
+				5BECCAB11437C3E0009B9D60 /* asciidrawViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BECCAB41437C3E1009B9D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BECCAC41437C3E1009B9D60 /* InfoPlist.strings in Resources */,
+				5BECCAC61437C3E1009B9D60 /* asciidrawTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BECCAB51437C3E1009B9D60 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BECCA8F1437C3E0009B9D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BECCAA41437C3E0009B9D60 /* main.m in Sources */,
+				5BECCAA81437C3E0009B9D60 /* asciidrawAppDelegate.m in Sources */,
+				5BECCAAE1437C3E0009B9D60 /* asciidrawViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BECCAB21437C3E1009B9D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BECCAC81437C3E1009B9D60 /* asciidrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BECCABE1437C3E1009B9D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BECCA921437C3E0009B9D60 /* asciidraw */;
+			targetProxy = 5BECCABD1437C3E1009B9D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BECCAA01437C3E0009B9D60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BECCAA11437C3E0009B9D60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BECCAA91437C3E0009B9D60 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BECCAAA1437C3E0009B9D60 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5BECCAAF1437C3E0009B9D60 /* asciidrawViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BECCAB01437C3E0009B9D60 /* en */,
+			);
+			name = asciidrawViewController.xib;
+			sourceTree = "<group>";
+		};
+		5BECCAC21437C3E1009B9D60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BECCAC31437C3E1009B9D60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BECCAC91437C3E1009B9D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5BECCACA1437C3E1009B9D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BECCACC1437C3E1009B9D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asciidraw/asciidraw-Prefix.pch";
+				INFOPLIST_FILE = "asciidraw/asciidraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BECCACD1437C3E1009B9D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asciidraw/asciidraw-Prefix.pch";
+				INFOPLIST_FILE = "asciidraw/asciidraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BECCACF1437C3E1009B9D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/asciidraw.app/asciidraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asciidraw/asciidraw-Prefix.pch";
+				INFOPLIST_FILE = "asciidrawTests/asciidrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5BECCAD01437C3E1009B9D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/asciidraw.app/asciidraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "asciidraw/asciidraw-Prefix.pch";
+				INFOPLIST_FILE = "asciidrawTests/asciidrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BECCA8D1437C3E0009B9D60 /* Build configuration list for PBXProject "asciidraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BECCAC91437C3E1009B9D60 /* Debug */,
+				5BECCACA1437C3E1009B9D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BECCACB1437C3E1009B9D60 /* Build configuration list for PBXNativeTarget "asciidraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BECCACC1437C3E1009B9D60 /* Debug */,
+				5BECCACD1437C3E1009B9D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BECCACE1437C3E1009B9D60 /* Build configuration list for PBXNativeTarget "asciidrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BECCACF1437C3E1009B9D60 /* Debug */,
+				5BECCAD01437C3E1009B9D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BECCA8A1437C3E0009B9D60 /* Project object */;
+}
