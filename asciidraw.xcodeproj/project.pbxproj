@@ -23,6 +23,10 @@
 		5BECCAC41437C3E1009B9D60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAC21437C3E1009B9D60 /* InfoPlist.strings */; };
 		5BECCAC61437C3E1009B9D60 /* asciidrawTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5BECCAC51437C3E1009B9D60 /* asciidrawTests.h */; };
 		5BECCAC81437C3E1009B9D60 /* asciidrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAC71437C3E1009B9D60 /* asciidrawTests.m */; };
+		5BECCADD14381F28009B9D60 /* ADAsciiDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCADC14381F28009B9D60 /* ADAsciiDrawView.m */; };
+		5BECCAE4143821AF009B9D60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECCAE3143821AF009B9D60 /* QuartzCore.framework */; };
+		5BECCAEF14383566009B9D60 /* ADCharMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAEE14383566009B9D60 /* ADCharMatrix.m */; };
+		5BECCAF21439404A009B9D60 /* ADLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECCAF11439404A009B9D60 /* ADLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +44,30 @@
 		5BECCA971437C3E0009B9D60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BECCA991437C3E0009B9D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BECCA9B1437C3E0009B9D60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5BECCA9F1437C3E0009B9D60 /* asciidraw-Info.plist */ = {isa = PBXFileReference; path = "asciidraw-Info.plist"; sourceTree = "<group>"; };
+		5BECCA9F1437C3E0009B9D60 /* asciidraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asciidraw-Info.plist"; sourceTree = "<group>"; };
 		5BECCAA11437C3E0009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BECCAA31437C3E0009B9D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BECCAA51437C3E0009B9D60 /* asciidraw-Prefix.pch */ = {isa = PBXFileReference; path = "asciidraw-Prefix.pch"; sourceTree = "<group>"; };
-		5BECCAA61437C3E0009B9D60 /* asciidrawAppDelegate.h */ = {isa = PBXFileReference; path = asciidrawAppDelegate.h; sourceTree = "<group>"; };
+		5BECCAA51437C3E0009B9D60 /* asciidraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "asciidraw-Prefix.pch"; sourceTree = "<group>"; };
+		5BECCAA61437C3E0009B9D60 /* asciidrawAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asciidrawAppDelegate.h; sourceTree = "<group>"; };
 		5BECCAA71437C3E0009B9D60 /* asciidrawAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asciidrawAppDelegate.m; sourceTree = "<group>"; };
 		5BECCAAA1437C3E0009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5BECCAAC1437C3E0009B9D60 /* asciidrawViewController.h */ = {isa = PBXFileReference; path = asciidrawViewController.h; sourceTree = "<group>"; };
+		5BECCAAC1437C3E0009B9D60 /* asciidrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asciidrawViewController.h; sourceTree = "<group>"; };
 		5BECCAAD1437C3E0009B9D60 /* asciidrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asciidrawViewController.m; sourceTree = "<group>"; };
 		5BECCAB01437C3E0009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/asciidrawViewController.xib; sourceTree = "<group>"; };
 		5BECCAB71437C3E1009B9D60 /* asciidrawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asciidrawTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECCAB81437C3E1009B9D60 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5BECCAC11437C3E1009B9D60 /* asciidrawTests-Info.plist */ = {isa = PBXFileReference; path = "asciidrawTests-Info.plist"; sourceTree = "<group>"; };
+		5BECCAC11437C3E1009B9D60 /* asciidrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "asciidrawTests-Info.plist"; sourceTree = "<group>"; };
 		5BECCAC31437C3E1009B9D60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BECCAC51437C3E1009B9D60 /* asciidrawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asciidrawTests.h; sourceTree = "<group>"; };
 		5BECCAC71437C3E1009B9D60 /* asciidrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asciidrawTests.m; sourceTree = "<group>"; };
+		5BECCADB14381F28009B9D60 /* ADAsciiDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADAsciiDrawView.h; path = asciidraw/ADAsciiDrawView.h; sourceTree = "<group>"; };
+		5BECCADC14381F28009B9D60 /* ADAsciiDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADAsciiDrawView.m; path = asciidraw/ADAsciiDrawView.m; sourceTree = "<group>"; };
+		5BECCAE3143821AF009B9D60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BECCAE81438235A009B9D60 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5BECCAED14383566009B9D60 /* ADCharMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADCharMatrix.h; path = asciidraw/ADCharMatrix.h; sourceTree = "<group>"; };
+		5BECCAEE14383566009B9D60 /* ADCharMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADCharMatrix.m; path = asciidraw/ADCharMatrix.m; sourceTree = "<group>"; };
+		5BECCAF01439404A009B9D60 /* ADLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADLine.h; path = asciidraw/ADLine.h; sourceTree = "<group>"; };
+		5BECCAF11439404A009B9D60 /* ADLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADLine.m; path = asciidraw/ADLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BECCAE4143821AF009B9D60 /* QuartzCore.framework in Frameworks */,
 				5BECCA981437C3E0009B9D60 /* UIKit.framework in Frameworks */,
 				5BECCA9A1437C3E0009B9D60 /* Foundation.framework in Frameworks */,
 				5BECCA9C1437C3E0009B9D60 /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +118,8 @@
 		5BECCA961437C3E0009B9D60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BECCAE81438235A009B9D60 /* CoreText.framework */,
+				5BECCAE3143821AF009B9D60 /* QuartzCore.framework */,
 				5BECCA971437C3E0009B9D60 /* UIKit.framework */,
 				5BECCA991437C3E0009B9D60 /* Foundation.framework */,
 				5BECCA9B1437C3E0009B9D60 /* CoreGraphics.framework */,
@@ -116,6 +131,7 @@
 		5BECCA9D1437C3E0009B9D60 /* asciidraw */ = {
 			isa = PBXGroup;
 			children = (
+				5BECCAD914381ED8009B9D60 /* AsciiDraw */,
 				5BECCAA61437C3E0009B9D60 /* asciidrawAppDelegate.h */,
 				5BECCAA71437C3E0009B9D60 /* asciidrawAppDelegate.m */,
 				5BECCAA91437C3E0009B9D60 /* MainWindow.xib */,
@@ -155,6 +171,19 @@
 				5BECCAC21437C3E1009B9D60 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BECCAD914381ED8009B9D60 /* AsciiDraw */ = {
+			isa = PBXGroup;
+			children = (
+				5BECCADB14381F28009B9D60 /* ADAsciiDrawView.h */,
+				5BECCADC14381F28009B9D60 /* ADAsciiDrawView.m */,
+				5BECCAED14383566009B9D60 /* ADCharMatrix.h */,
+				5BECCAEE14383566009B9D60 /* ADCharMatrix.m */,
+				5BECCAF01439404A009B9D60 /* ADLine.h */,
+				5BECCAF11439404A009B9D60 /* ADLine.m */,
+			);
+			name = AsciiDraw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +297,9 @@
 				5BECCAA41437C3E0009B9D60 /* main.m in Sources */,
 				5BECCAA81437C3E0009B9D60 /* asciidrawAppDelegate.m in Sources */,
 				5BECCAAE1437C3E0009B9D60 /* asciidrawViewController.m in Sources */,
+				5BECCADD14381F28009B9D60 /* ADAsciiDrawView.m in Sources */,
+				5BECCAEF14383566009B9D60 /* ADCharMatrix.m in Sources */,
+				5BECCAF21439404A009B9D60 /* ADLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +409,7 @@
 				GCC_PREFIX_HEADER = "asciidraw/asciidraw-Prefix.pch";
 				INFOPLIST_FILE = "asciidraw/asciidraw-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,6 +421,7 @@
 				GCC_PREFIX_HEADER = "asciidraw/asciidraw-Prefix.pch";
 				INFOPLIST_FILE = "asciidraw/asciidraw-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +481,7 @@
 				5BECCACD1437C3E1009B9D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BECCACE1437C3E1009B9D60 /* Build configuration list for PBXNativeTarget "asciidrawTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +490,7 @@
 				5BECCAD01437C3E1009B9D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
